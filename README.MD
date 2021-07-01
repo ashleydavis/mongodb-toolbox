@@ -52,6 +52,8 @@ Later you can use `mongorestore` to restore your database:
 mongorestore --uri mongodb://<dest-host>:27017 dump
 ```
 
+**NOTE TO SELF** If encoding a password in the Mongodb connection string on the command line you need to escape exclamation marks (!) with a backslash (e.g. \!).
+
 ## Accessing the host from the container
 
 Inside the container you can use `host.docker.internal` to access the host OS.
