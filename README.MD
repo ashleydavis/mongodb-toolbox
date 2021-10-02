@@ -4,6 +4,8 @@ Quickly boot a Mongodb container so that you have tools for working with Mongodb
 
 Includes a shared directory so you can easily copy files (e.g. a database dump) between the container and the host OS.
 
+If you like this project, please star this repo and [support my work](https://www.codecapers.com.au/about#support-my-work)
+
 ## Pre requisite
 
 [Have Docker installed](https://www.docker.com/products/docker-desktop).
