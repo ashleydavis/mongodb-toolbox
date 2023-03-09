@@ -3,7 +3,7 @@ services:
 
   dbdump:
     image: mongo:4
-    container_name: db
+    container_name: mongo-toolbox
     volumes:
         - ./:/shared:z
     ports:

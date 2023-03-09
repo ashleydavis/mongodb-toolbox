@@ -34,7 +34,7 @@ You can also connect to the container to run tools like `mongodump` and `mongore
 Open a new terminal and open a shell into the MongoDB container:
 
 ```bash
-docker exec -it db bash
+docker exec -it mongo-toolbox bash
 ```
 
 ## Do a backup
