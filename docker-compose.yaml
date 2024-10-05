@@ -1,13 +1,13 @@
 version: "3"
 services:
 
-  dbdump:
-    image: mongo:4
-    container_name: db
+  mongo-toolbox:
+    image: mongo:6.0
+    container_name: mongo-toolbox
     volumes:
         - ./:/shared:z
     ports:
-      - "27017:27017"
+      - "6000:27017"
     expose:
       - "27017"
     restart: "no"
